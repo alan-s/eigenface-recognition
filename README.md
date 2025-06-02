@@ -12,11 +12,11 @@ I completed this work as part of an undergraduate degree at King's College Londo
 
 <img src="images/eigenface_recognition_02.png" width="564" height="522"/>
 
-> Images can be captured from a video source, such a USB camera
+> Histograph equalisation is an optional pre-processing step to reduce lighting variation
 
 <img src="images/eigenface_recognition_03.png" width="686" height="558"/>
 
-> Histograph equalisation is an optional pre-processing step to reduce lighting variation
+> Images can be captured from a video source, such as a USB camera
 
 **Features**
 - Enrol up to 1000 images from disk
