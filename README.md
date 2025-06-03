@@ -1,6 +1,6 @@
 # Eigenface Recognition
 
-A small and lightweight application utilising eigenvectors to demonstrate human face recognition, in the field of computer vision.
+A small and lightweight application utilising eigenvectors to demonstrate human face recognition.
 
 The VB.NET WinForms application aims to retreive the nearest image in an enrolled dataset of faces, utilising additioanl pre-processing techniques to improve accuracy.
 
