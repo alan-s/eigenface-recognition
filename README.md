@@ -12,7 +12,7 @@ I completed this work as part of an undergraduate degree at King's College Londo
 
 <img src="images/eigenface_recognition_02.png" width="564" height="522"/>
 
-> Histograph equalisation is an optional pre-processing step to reduce lighting variation
+> Histogram equalisation is an optional pre-processing step to reduce lighting variation
 
 <img src="images/eigenface_recognition_03.png" width="686" height="558"/>
 
@@ -34,9 +34,9 @@ I've included a packaged executible with the necessary libraries. You can always
 
 
 ## Notes
-- Eignface approach to face recognition doesn't necessarily scale as the number of input images grows (especially in the naive appraoch utilised here), hence there is an upper bound of 1000 images for enrollment.  We observe at least a quadratic time-complexity (see table below)
-- The image dimension increases the number of data points for which the covariance matrix needs to be computed, and thus compute time. A default resize dimension of 24x60 is recommended for increasing datasets, which might impact accuracy
-- Eignfaces are notorisuly suspectible to face position, expression, and lighting as a minimum. The best input images are frontfacing, with good lighting, and with the face almost entirly the content of the image
+- The eignface approach to face recognition doesn't necessarily scale as the number of input images grows (especially in the naive appraoch utilised here), hence there is an upper bound of 1000 images for enrollment.  We observe at least a quadratic time-complexity (see table below)
+- A karger image dimension increases the number of data points for which the covariance matrix needs to be computed, and thus compute time. A default dimension of 23x60 is recommended for increasing datasets, which may impact accuracy of recognition, but reduce computation time
+- Eignfaces are notorisuly suspectible to face position, expression, and lighting. The best input images are frontfacing with good lighting, and with the face almost entirly the content of the image. The use of a histogram equalisation filter attemps to mitigate any variance in lighting
 
 <img src="images/eigenface_recognition_04.png" width="500" height="310"/>
 
