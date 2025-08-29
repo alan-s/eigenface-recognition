@@ -2,7 +2,7 @@
 
 A small and lightweight application utilising eigenvectors to demonstrate human face recognition.
 
-The VB.NET WinForms application aims to retrieve the nearest image in an enrolled dataset of faces, utilising additional pre-processing techniques to improve accuracy.
+This VB.NET WinForms application aims to retrieve the nearest image in an enrolled dataset of faces, utilising additional pre-processing techniques to improve accuracy.
 
 I completed this work as part of an undergraduate degree at King's College London, accompanied by a paper titled ***"An Investigation into Biometric Recognition for Mobile Devices"***.
 
